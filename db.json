@@ -1,0 +1,125 @@
+{
+  "post": [],
+  "signupUsers": [
+    {
+      "id": "1576",
+      "username": "NuttaponKong",
+      "email": "Nuttapon@gmail.com",
+      "password": "Reyser"
+    },
+    {
+      "id": "5ec0",
+      "username": "admin",
+      "email": "admin123@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "username": "Reyser",
+      "email": "Reyser1234@gmail.com",
+      "password": "Reyser",
+      "id": "bb17"
+    },
+    {
+      "id": "93d8",
+      "username": "test",
+      "email": "test2@email.com",
+      "password": "test123"
+    },
+    {
+      "id": "8afe",
+      "username": "PrimeNG",
+      "email": "PrimeNG@gmail.com",
+      "password": "PrimeNG"
+    },
+    {
+      "id": "766c",
+      "username": "admin",
+      "email": "test2@email.com",
+      "password": "admin123"
+    }
+  ],
+  "users": [
+    {
+      "id": "f149",
+      "department": "Accounts",
+      "name": "Kimy",
+      "mobile": "9087654454",
+      "email": "test2@email.com",
+      "gender": "Male",
+      "doj": "2024-10-30",
+      "city": "Seoul",
+      "salary": "200000",
+      "address": "Seoul",
+      "status": true
+    },
+    {
+      "id": "f149",
+      "department": "Accounts",
+      "name": "Alice",
+      "mobile": "9087654454",
+      "email": "test2@email.com",
+      "gender": null,
+      "doj": "2024-10-30",
+      "city": "Seoul",
+      "salary": "200000",
+      "address": "Seoul",
+      "status": true
+    },
+    {
+      "id": "ac0c",
+      "department": "Management",
+      "name": "Joe",
+      "mobile": "9374859221",
+      "email": "John@email.com",
+      "gender": "Male",
+      "doj": "2024-11-21",
+      "city": "Barcelona",
+      "salary": "300000",
+      "address": "Waaaa",
+      "status": true
+    },
+    {
+      "id": "eb19",
+      "department": "HR",
+      "name": "John",
+      "mobile": "0898282",
+      "email": "John@email.com",
+      "gender": "Male",
+      "doj": "2024-11-01",
+      "city": "London",
+      "salary": "20000",
+      "address": "Waaaa",
+      "status": true
+    },
+    {
+      "id": "f8b7",
+      "department": "Sales",
+      "name": "Joey",
+      "mobile": "9374859221",
+      "email": "John@email.com",
+      "gender": "Male",
+      "doj": "2024-11-05",
+      "city": "Barcelona",
+      "salary": "121221",
+      "address": "Waaaa",
+      "status": true
+    },
+    {
+      "id": "3282",
+      "department": "IT",
+      "name": "Nuttapon",
+      "mobile": "0898290117",
+      "email": "Nuttapon@email.com",
+      "gender": "Male",
+      "doj": "2017-10-30",
+      "city": "Bangkok",
+      "salary": "2000",
+      "address": "Yannawa Sathupradit road Sathu49",
+      "status": true
+    }
+  ],
+  "commants": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

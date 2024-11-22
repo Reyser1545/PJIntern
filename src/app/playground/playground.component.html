@@ -1,0 +1,64 @@
+<body>
+    <div class="video-container">
+        <p-galleria class="video"
+            [value]="videoItems" 
+            (valueChange)="onValueChange($event)" 
+            [responsiveOptions]="responsiveOptions" 
+            [containerStyle]="{ 'max-width': '640px' }" 
+            [numVisible]="3">
+          <!-- Template for the item displayed in the gallery (the video player) -->
+          <ng-template pTemplate="item" let-item>
+              <video *ngIf="selectedVideo === item" #media controls style="width: 600px; height: 400px; object-fit: cover;" class="video-container">
+                  <source [src]="item.videoSrc" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </ng-template>
+      
+          <!-- Template for the thumbnail displayed in the thumbnail bar -->
+          <ng-template pTemplate="thumbnail" let-item>
+              <div class="grid grid-nogutter justify-content-center">
+                  <img [src]="item.thumbnailSrc" style="width: 100%; cursor: pointer;" (click)="selectVideo(item)" />
+              </div>
+          </ng-template>
+        </p-galleria>
+      </div>
+      <br>
+      <br>
+  <div class="text-white bg-slate-950 text-center p-4">galleria</div>
+  <br>
+      <br>
+<p-galleria
+    [value]="images" 
+    [containerStyle]="{ 'max-width': '1080px' }" 
+    [numVisible]="5"
+    class="galleria-container">
+    
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" style="width: 60%;" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+            <div class="grid grid-nogutter justify-content-center">
+                <img [src]="item.thumbnailImageSrc" />
+            </div>
+        </ng-template>
+</p-galleria>
+<div class="text-white bg-slate-950 text-center p-4">Accrodin</div>
+<p-accordion [activeIndex]="0">
+    <p-accordionTab header="Page I">
+        <p>
+            1
+        </p>
+    </p-accordionTab>
+    <p-accordionTab header="Page II">
+        <p>
+            2
+        </p>
+    </p-accordionTab>
+    <p-accordionTab header="Page III">
+        <p>
+            3
+        </p>
+    </p-accordionTab>
+</p-accordion>
+
+</body>

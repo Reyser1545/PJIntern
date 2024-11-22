@@ -1,0 +1,59 @@
+/* Tailwind base layer (reset styles for Tailwind) */
+
+@import 'ngx-toastr/toastr';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css'; /* Correct path for Font Awesome */
+@import "primeng/resources/themes/lara-light-blue/theme.css"; /* PrimeNG theme */
+@import "primeng/resources/primeng.css"; /* PrimeNG core styles */
+
+@tailwind base;
+
+
+/* Custom reset layer */
+@layer reset {
+  /* Target only raw buttons and inputs, exclude PrimeNG-specific components */
+  button:not(.p-button),
+  input:not(.p-inputtext),
+  textarea:not(.p-inputtextarea) {
+    all: unset; /* Reset native buttons and inputs */
+  }
+}
+
+/* Tailwind components (for utility-first classes) */
+@tailwind components;
+
+/* Tailwind utilities (for low-level utility classes) */
+@tailwind utilities;
+
+/* PrimeNG theme and core styles */
+
+
+/* Custom styles for your application */
+body {
+  background-image: url('/assets/city2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+  .p-field input, .p-password input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px; /* same as password input */
+  }
+  
+  .p-field input {
+    border-radius: 8px; /* same as password input */
+  }
+  
+  .p-password .p-inputtext {
+    width: 100%;
+    padding: 10px;
+   
+  }
+  
+  vg-player {
+    width: 100%;
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Let the height adjust proportionally */
+  }
+  

@@ -1,0 +1,11 @@
+.video-container {
+    display: flex;
+    justify-content: center; /* Centers the video horizontally */
+    align-items: center;     /* Centers the video vertically */
+    height: 400px;           /* Container height, adjust as needed */
+    width: 100%;             /* Takes full width of the parent container */
+    max-width: 600px;        /* Limits width to 600px */
+    margin: 0 auto;          /* Centers the container within the page */
+    background-color: black;
+  }
+  
